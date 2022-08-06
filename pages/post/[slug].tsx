@@ -42,6 +42,8 @@ function Slug({ post }: Props) {
       });
   };
 
+  console.log(post._createdAt);
+
   return (
     <main>
       <Header />
@@ -222,6 +224,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     _id,
     title,
     description,
+    _createdAt,
     mainImage,
     slug,
     author-> {
