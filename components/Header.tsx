@@ -12,7 +12,7 @@ function Header() {
             src="https://links.papareact.com/yvf"
             alt="logo"
           /> */}
-          <p className=" cursor-pointer sm:text-xl font-bold bg-yellow-500 rounded-sm py-2 px-4 shadow-md text-lg">My Fucking Blog</p>
+          <p className=" cursor-pointer sm:text-xl font-bold bg-yellow-500 rounded-sm py-2 px-4 shadow-md text-lg">MyBlog</p>
         </Link>
 
         <div className="hidden md:inline-flex items-center space-x-5">
